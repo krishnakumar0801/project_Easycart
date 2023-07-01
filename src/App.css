@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+}
+.brandtitle-one{
+    font-weight: bolder;
+}
+.brandtitle-three{
+    font-weight: bolder;
+    font-size:x-large;
+}
+.brandtitle-two{
+    color: white;
+    background-color: black;
+}
+.brandtitle-signin{
+    color: white;
+    background-color: black;
+    font-size:x-large;
+    font-weight: bolder;
+}
+
+.header{
+    padding: 0px;
+    border: 1px solid;
+    background-color: black;
+    
+}
+.title{
+    color: white;
+}
+.searchbox{
+    height: 35px;
+    width: 350px;
+    margin-left: 350px;
+    
+}
+@media(max-width:713px){
+    .searchbox{
+        height: 35px;
+        width: 300px;
+        margin-left: 200px;
+        
+    }
+}
+@media(max-width:521px){
+    .searchbox{
+        height: 35px;
+        width: 300px;
+        margin-left: 100px;
+        
+    }
+}
+@media(max-width:427px){
+    .searchbox{
+        height: 35px;
+        width: 250px;
+        margin-left: 50px;
+        
+    }
+}
+
+.button1{
+    margin-left: 200px;
+    text-decoration: none;
+    padding: 0px;  
+}
+.return{
+margin-top: 0px;
+padding: 0px;
+margin-bottom: 0px;
+}
+.button2{
+    text-decoration: none;
+   
+    margin-top: 0px;
+    
+}
+.navbar{
+    border-bottom: 0.5px solid;
+    position: sticky;
+}
+.button-search{
+    margin-left: 4px;
+    margin-bottom: 6px;
+
+}
+.cart-logo{
+    width: 40px;
+    height: 40px;
+    color: black;
+    margin-left: 100px;
+}
+.Return-option{
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.signin-logo{
+    margin-left: 220px;
+    height: 25px;
+}
+.brandtitle-two{
+    color: white;
+    background-color: black;
+}
+.signin-option{
+    margin-left: -100px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+/*sign-in page */
+.sign-inpage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+   
+}
+
+.email_box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 28px;
+}
+.password_box{
+    margin-right: 20px;
+}
+.title_text{
+    text-align: center;
+}
+.form{
+    
+    border-radius: 10px;
+    padding: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.button{
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.policynote{
+    font-size: small;
+    text-align: center;
+}
+.policylink{
+    text-decoration: none;
+}
+.policylink :hover{
+    text-decoration: underline;
+    color: red;
+}
+.newuser{
+    margin-bottom: 5px;
+}
+.titlelabel{
+    margin-bottom: 0px;
+    margin-left: 19%;
+}
+
+.registerpage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.note{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    margin-top: 5px;
+}
+.inputbox{
+    margin-left: 20%;
+    
+}
+
+/*Home.js*/
+.slider{
+    height: 400px;
+    width: 100%;
+}
+
+.title1{
+    color:white;
+    font-weight: bolder;
+}
+.title-info1{
+    font-weight: bolder;
+}
+.title-info2{
+    color:white;
+    font-weight: bolder;
+}
+.title-info3{
+    color:white;
+    font-weight: bolder;
+}
+
+
+.flexbox:hover{
+   
+    border-color: aliceblue;
+    border: 1px solid;
+}
+
+
+.flexbox:active{
+    border: 1px solid;
+    text-shadow: 2px 1px;
+    border-color: red;
+
+}
+.display-col{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
+ 
+}
+
+.producttitles{
+    padding: 2px;
+    text-align: center;
+}
+
+.flexbox{
+   
+    padding: 10px;
+    margin: 0px;
+   
+}
+
+
+.tshirt{
+    height: 250px;
+}
+.jeans{
+    height: 300px;
+    width: 250px;
+    
+}
+
+/* Menscloth_details and Womencloth_details */
+.products{
+    display: inline-block;
+    margin: 10px;
+    padding: 35px;
+    cursor: pointer;
+}
+
+.mensimages{
+    height: 300px;
+    width: 100px;
+}
+.brand:hover{
+    color:red;
+    
+}
+.validationmessage{
+    color: red;
+    margin-left: 60px;
+}
+
+/* ELECTRONICS */
+.electronicproducts{
+    display: flex;
+}
+
+.productsview{
+    margin: 55px;
+}
+.pricechange{
+    text-decoration: line-through;
+    font-size: small;
+}
+.imagesize{
+    height: 265px;
+}
