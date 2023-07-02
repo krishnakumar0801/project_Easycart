@@ -9,6 +9,7 @@ import Returnorder from './Components/return&order';
 import Newuser from './Components/Newuser';
 import Menswear from './Components/clothes/menswear';
 import Womenswear from './Components/clothes/womenswear';
+import Payment from './Components/Payment';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
                 <Route path='/Newuser' element={<Newuser/>}></Route>
                 <Route path='/Menswear' element={<Menswear/>}> </Route>
                 <Route path='/Womenswear' element={<Womenswear/>}> </Route>
+                <Route path='/Payment' element={<Payment />}> </Route>
             </Routes>
         </Router>
        

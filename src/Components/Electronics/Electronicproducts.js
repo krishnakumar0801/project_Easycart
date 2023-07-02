@@ -8,8 +8,11 @@ import {BsStarFill} from 'react-icons/bs'
 import {BsStarHalf} from 'react-icons/bs'
 import vivo from '../Electronics/vivo.jpg'
 import oneplus from '../Electronics/oneplus.jpg'
+import { useNavigate } from 'react-router-dom';
 import '../../App.css'
 function Electronicproducts() {
+
+  var Navigations= useNavigate()
   return (
     
     <div>
@@ -36,7 +39,7 @@ function Electronicproducts() {
         </span>
         </p>
         </Card.Text>
-        <Button variant="dark">BuyNow</Button>
+        <Button variant="dark" onClick={Navigations("/cart")}>BuyNow</Button>
       </Card.Body>
     </Card>
       </div>
@@ -60,7 +63,7 @@ function Electronicproducts() {
         </span>
         </p>
         </Card.Text>
-        <Button variant="dark">BuyNow</Button>
+        <Button variant="dark"onClick={()=>Navigations("/Payment")}>BuyNow</Button>
       </Card.Body>
     </Card>
       </div>
@@ -85,7 +88,7 @@ function Electronicproducts() {
         </span>
         </p>
         </Card.Text>
-        <Button variant="dark">BuyNow</Button>
+        <Button variant="dark" onClick={()=>Navigations("/Payment")}>BuyNow</Button>
       </Card.Body>
     </Card>
       </div>
@@ -111,7 +114,7 @@ function Electronicproducts() {
         </span>
         </p>
         </Card.Text>
-        <Button variant="dark">BuyNow</Button>
+        <Button variant="dark" onClick={()=>Navigations("/Payment")}>BuyNow</Button>
       </Card.Body>
     </Card>
       </div>
