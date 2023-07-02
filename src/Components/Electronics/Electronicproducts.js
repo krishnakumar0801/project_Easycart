@@ -39,7 +39,7 @@ function Electronicproducts() {
         </span>
         </p>
         </Card.Text>
-        <Button variant="dark" onClick={Navigations("/cart")}>BuyNow</Button>
+        <Button variant="dark" onClick={()=>Navigations("/Payment")}>BuyNow</Button>
       </Card.Body>
     </Card>
       </div>
