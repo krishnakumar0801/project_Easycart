@@ -5,7 +5,7 @@ function Returnorder() {
   return (
     <div>
     <Navbars />
-   return&order</div>
+   </div>
   )
 }
 
