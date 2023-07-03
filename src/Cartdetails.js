@@ -3,7 +3,9 @@ import { Values } from './Stateprovider'
 import './App.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { useNavigate } from 'react-router-dom';
 function Cartdetails({id,title,image,brand,price}) {
+  var Navigations =useNavigate()
     var [{basket}, dispatch]= Values();
     var removeitem =()=>{
         dispatch({
@@ -22,6 +24,9 @@ function Cartdetails({id,title,image,brand,price}) {
         <strong className='price'>RS.{price}</strong>
         </Card.Text>
         <Button variant="dark" onClick={removeitem} >Remove</Button>
+        <span>
+        <Button className='paymentbutton' variant="dark" onClick={()=>Navigations("/Payment")} >Buy Now</Button>
+        </span>
       </Card.Body>
     </Card>
     </div>
